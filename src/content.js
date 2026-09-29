@@ -50,7 +50,7 @@ export const steps = [
     takeaway: 'The thinking is mine. The page and a light tidy-up, AI-assisted.',
     questions: [
       { prompt: 'Did you use AI for any part of this challenge?', answer: 'Yes', choice: true },
-      { prompt: 'How did you use it?', answer: "I didn't use AI for the original answers, but the form was stuck, so I tried saying yes here to see if it would fix it." },
+      { prompt: 'How did you use it?', answer: 'I created this response because your form was not working for me.' },
       { prompt: 'Do you use AI in your day-to-day work?', answer: 'Yes', choice: true },
       { prompt: 'What does that usually look like?', answer: "There's almost nothing I don't use AI for now. For example, I don't remember the last time I wrote a number into a spreadsheet cell.\n\nFor this interview, I just flew through the original answers without AI because, well, how does one stand out in an AI interview where everyone is using AI?\n\nMaybe bad grammar and spelling is the new competence signal." }
     ]

@@ -64,7 +64,7 @@ Did you use AI for any part of this challenge?
 Yes
 
 How did you use it?
-I didn't use AI for the original answers, but the form was stuck, so I tried saying yes here to see if it would fix it.
+I created this response because your form was not working for me.
 
 Do you use AI in your day-to-day work?
 Yes
