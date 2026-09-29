@@ -1,6 +1,6 @@
 # Sascha Ehrentraut × The Agile Monkeys
 
-A five-step application with original responses, a swinging SVG monkey, and an embedded portrait video. Built with React and bundled for offline use.
+A five-step application with lightly edited application responses, a swinging SVG monkey, and an embedded portrait video. Built with React and bundled for offline use.
 
 Live site: https://Saschaeh.github.io/monkeys-application/
 
@@ -16,7 +16,7 @@ Run `npm run check` for the browser checks (requires installed Google Chrome). S
 
 ## Content and assets
 
-Answers are transcribed from the five application screenshots with original wording preserved. Editorial summaries are labelled separately. The AI step discloses assistance in building the page after the original submission failed.
+Answers are based on the five application screenshots, lightly edited at Sascha’s request for spelling, punctuation and readability while retaining his informal tone and meaning. Editorial summaries are labelled separately. The AI step discloses assistance with both the page and the light copy edit.
 
 The video retains the original H.264/AAC streams; its container was rewritten with fast-start metadata for streaming. The portrait poster is a frame from that video. DM Sans is bundled under the included SIL Open Font License. Monkey illustrations are original SVG artwork.
 

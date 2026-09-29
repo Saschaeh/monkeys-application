@@ -11,6 +11,6 @@ together. Opening index.html inside a ZIP preview will not work; extract first.
 You can jump between the five steps along the top, or select All responses to
 read everything together and print/save a PDF. The video is in step 4.
 
-Original wording is preserved from the supplied application screenshots.
-The final step includes an update disclosing AI assistance in building this page.
+Answers are based on the supplied screenshots, lightly tidied up for readability.
+The final step discloses AI assistance with this page and the light copy edit.
 This is an applicant-created presentation, not the company's official form.
