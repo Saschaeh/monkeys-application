@@ -146,11 +146,11 @@ function App() {
     return () => window.removeEventListener('keydown', onKey);
   }, [current, overview]);
   return <>
-    <a className="skip-link" href="#main-content">Skip to content</a>
+    <a className="skip-link" href="#main-content" onClick={e => { e.preventDefault(); document.getElementById("main-content").focus(); }}>Skip to content</a>
     <div className="shell">
       <header className="masthead"><button className="wordmark" onClick={() => navigate(0)} aria-label="Application home">the agile<br />monkeys<span>.</span></button><div className="applicant"><span className="applicant-name">Sascha Ehrentraut</span><span>A job application, with a little initiative.</span></div><button className="overview-button" onClick={() => setOverview(true)}><span className="overview-icon" aria-hidden="true">☷</span>All responses</button></header>
       <Progress current={current} navigate={navigate} moveKey={moveKey} direction={direction} />
-      <main id="main-content">
+      <main id="main-content" tabIndex="-1">
         <div key={current} className="page">
           {current === 0 ? <div className="intro-layout"><div className="intro-copy"><div className="intro-label"><span className="tiny-dot" />Hi, I’m Sascha.</div><h1 tabIndex="-1" id="page-title">The form<br />got stuck.<br />I kept going.</h1><p className="intro-description">Five questions. My original answers. One small detour to get them to you.</p><p className="intro-explanation">Your application form wouldn’t let me finish, so I made a little home for my responses. Same questions, same me. Plus a monkey to show you around.</p><div className="intro-actions"><button className="button primary" onClick={() => navigate(1)}>Meet the applicant <Arrow /></button><span>5 steps · 1 video · a little initiative</span></div></div><HeroArt /></div> : current === 6 ? <div className="intro-layout finish-layout"><div className="intro-copy"><div className="intro-label"><span className="tiny-dot" />All five branches covered.</div><h1 tabIndex="-1" id="page-title">Thanks for<br />hanging out.</h1><p className="intro-description">That’s my application.<br />I’d love to continue the conversation.</p><p className="intro-explanation">Sascha Ehrentraut<br />An application for The Agile Monkeys.</p><div className="finish-actions"><button className="button primary" onClick={() => setOverview(true)}>Review all responses <Arrow /></button><button className="text-link" onClick={() => navigate(4)}>Watch the video again</button></div><p className="completion-note">Prepared for your review. The original form submission is still unresolved.</p></div><HeroArt finished /></div> : <StepContent current={current} step={steps[current - 1]} />}
         </div>
