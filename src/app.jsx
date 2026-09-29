@@ -69,10 +69,10 @@ function VideoPlayer() {
   const [started, setStarted] = useState(false);
   const [failed, setFailed] = useState(false);
   async function play() {
-    try { await ref.current.play(); setStarted(true); } catch { setStarted(true); }
+    try { await ref.current.play(); setStarted(true); } catch { setFailed(true); }
   }
   return <div className="video-wrap">
-    <video ref={ref} className="application-video" controls={started} playsInline preload="metadata" poster="assets/video-poster-monkeys.jpg" onPlay={() => setStarted(true)} onError={() => setFailed(true)} aria-label="Sascha’s response: what I have learned recently"><source src="assets/sascha-ehrentraut-monkeys.mp4" type="video/mp4" />Your browser cannot play this video. <a href="assets/sascha-ehrentraut-monkeys.mp4">Open the video file</a>.</video>
+    <video ref={ref} className="application-video" controls={started || failed} playsInline preload="metadata" poster="assets/video-poster-monkeys.jpg" onPlay={() => { setStarted(true); setFailed(false); }} onError={() => setFailed(true)} aria-label="Sascha’s video response"><source src="assets/sascha-ehrentraut-monkeys.mp4" type="video/mp4" onError={() => setFailed(true)} />Your browser cannot play this video. <a href="assets/sascha-ehrentraut-monkeys.mp4">Open the video file</a>.</video>
     {!started && !failed && <button className="play-cover" onClick={play} aria-label="Play Sascha’s video"><span className="play-circle"><svg viewBox="0 0 30 30" aria-hidden="true"><path d="m11 7 13 8-13 8Z" fill="currentColor" /></svg></span><span className="play-caption">A little of my curiosity<span>Play video · 3:21</span></span></button>}
     {failed && <div className="video-error">The video could not load. <a href="assets/sascha-ehrentraut-monkeys.mp4">Open the included MP4</a>.</div>}
   </div>;
@@ -89,7 +89,7 @@ function StepContent({ step, current }) {
       {current === 4 && <div className="video-context"><Response question={step.questions[1]} /><a className="text-link" href="assets/sascha-ehrentraut-monkeys.mp4" download="Sascha Ehrentraut.mp4">Save the video <Arrow /></a></div>}
     </div>
     <div className="responses-column">
-      {current === 4 ? <><h2 className="video-question">{step.questions[0].prompt}</h2><VideoPlayer /></> : <><div className="responses-label"><span className="tiny-dot" />My responses</div>{step.questions.map((q, index) => <Response key={q.prompt} question={q} index={index} />)}{current === 5 && <aside className="disclosure"><span className="note-icon" aria-hidden="true">↳</span><p>{disclosure}</p></aside>}</>}
+      {current === 4 ? <><VideoPlayer /></> : <><div className="responses-label"><span className="tiny-dot" />My responses</div>{step.questions.map((q, index) => <Response key={q.prompt} question={q} index={index} />)}{current === 5 && <aside className="disclosure"><span className="note-icon" aria-hidden="true">↳</span><p>{disclosure}</p></aside>}</>}
     </div>
   </div>;
 }

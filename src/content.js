@@ -40,7 +40,7 @@ export const steps = [
     id: 'learning', label: 'Curiosity', title: 'What are you curious about?',
     description: 'We are constantly learning, experimenting and changing how we work. Curiosity is a big part of that, and it is something we look for in the people we work with. So before you go, we would like to see a little of yours.',
     questions: [
-      { prompt: 'What have you learned recently that you keep thinking about?', answer: 'Sascha Ehrentraut.mp4', video: true },
+      { prompt: 'My video', answer: 'Sascha Ehrentraut.mp4', video: true },
       { prompt: 'Give us a little context', answer: 'A very rushed me, between meetings, at my desk on the grind! Squeezing what could easily be a 30-minute video into just over 3 mins.' }
     ]
   },
