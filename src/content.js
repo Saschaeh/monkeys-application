@@ -65,4 +65,4 @@ export const threads = [
   ['09:15', 'Leadership asks for a status summary before noon.']
 ];
 
-export const disclosure = 'A note since the original form: I used AI to help build this page after the submission got stuck, then to give my answers a light spelling and readability tidy-up. The thoughts and the tone are still mine.';
+export const disclosure = 'A note since the original form: I used AI to help build this page after the submission got stuck, give my answers a light spelling and readability tidy-up, and replace the video background. The thoughts and the tone are still mine.';
