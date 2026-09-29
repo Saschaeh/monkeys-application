@@ -1,0 +1,63 @@
+Sascha Ehrentraut — Application for The Agile Monkeys
+Original responses, transcribed from the supplied screenshots.
+
+1. Monday, 09:07
+It is Monday morning and several operational threads need an owner.
+
+What do you deal with first?
+A teammate cannot complete an urgent task because an approval is missing.
+
+Walk us through your prioritisation.
+Urgent 2 min tasks first. 1. Approval for team member, 2. TBD on how difficult info is to confirm but I would check if its a quick win, or if there are dependency, if dependencies activate process for dependence to get that flowing in parallel. 3. Delegate or work on outage problem. Understand problem, impact, mitigation strat, managing client exceptions proactively if needed. 4. IF the above work is highly critical with client being affect and it requires a lot of work I would ask for a push back on the status report on noon. IF all those things are humming and are being taken care for proceed with Status meet. 5. Speak to accounting about invoice discrepancy.
+
+Write one reply you would actually send.
+Not clear on what I am replying to? If it is the above it would be a cleaned up version of that, allowing for reader to suggest changes on info that i might not have like if we dont sort out invoice our entire primary VPS will be shut down. ;)
+
+————————————
+
+2. Make the date, somehow
+A stakeholder asks you to keep a promised date even though a vendor dependency is unresolved and you cannot guarantee the outcome.
+
+What is your instinct?
+Ask for more context before committing
+
+Now write the message you would actually send to that stakeholder.
+There are some important infrastructure dependencies that make this deadline difficult. Could we jump on a quick call to discus exactly what the business need and goal is for this model to ship on this date just so I can have a better understanding of what we are shooting for and perhaps find some creative solutions to keep us moving forward.
+
+————————————
+
+3. Your work, your issue
+You are working on a task and realise there is a serious issue in something you delivered in the past. It is your work.
+
+What would you do?
+I f** up. My bad. It Happens. Work overtime to fix it. If the client is angry use it as an opportunity to build a closer relationship by showing a deep sense of responsibility, care for their business, and demonstrating the great length you go to fix the issue.
+
+————————————
+
+4. What are you curious about?
+We are constantly learning, experimenting and changing how we work. Curiosity is a big part of that, and it is something we look for in the people we work with. So before you go, we would like to see a little of yours.
+
+What have you learned recently that you keep thinking about?
+See assets/sascha-ehrentraut.mp4 (3:21)
+
+Give us a little context
+A very rushed in-between meetings me at my desk on the grind! Squeezing what could easily be a 30 min video into 3 mins (.15).
+
+————————————
+
+5. AI & you
+AI is allowed in this challenge and in our daily work. There are no right answers here, we are interested in how you use it, not whether you do.
+
+Did you use AI for any part of this challenge?
+Yes
+
+How did you use it?
+I did not use ai but this form was stuck so tested saying yes her to see if it would fix it.
+
+Do you use AI in your day-to-day work?
+Yes
+
+What does that usually look like?
+There is almost nothing now that I dont use AI for for, for example, i dont remember the last time I wrote a number into a cell of a spreadsheet.  For this interview process I have just flown through it with no AI because well how does one stand out in an AI interview where everyone is using AI. Maybe bad grammar and spelling is a new competent signal
+
+A note since the original form: I used AI to help build this page after the submission got stuck. The answers above are transcribed from my original application, with the original wording preserved.

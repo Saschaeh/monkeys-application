@@ -1,0 +1,16 @@
+Sascha Ehrentraut — an application for The Agile Monkeys
+
+1. Extract the entire ZIP into a folder.
+2. Open index.html in Chrome, Edge, Firefox or Safari.
+3. Choose "Meet the applicant", then use Next to read each response.
+
+Everything is included: the app, font and video. No installation, internet
+connection or local server is required. Keep index.html and the assets folder
+together. Opening index.html inside a ZIP preview will not work; extract first.
+
+You can jump between the five steps along the top, or select All responses to
+read everything together and print/save a PDF. The video is in step 4.
+
+Original wording is preserved from the supplied application screenshots.
+The final step includes an update disclosing AI assistance in building this page.
+This is an applicant-created presentation, not the company's official form.
